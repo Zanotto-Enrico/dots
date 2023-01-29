@@ -95,6 +95,10 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias tmux='tmux -u'
+
+alias storia='history |  grep '
+
 alias coseutili='nano ~/Documenti/coseUtili.txt'
 
 alias aggiorna='sudo apt-get update; sudo apt-get full-upgrade'
@@ -122,3 +126,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+PATH=$PATH:~/.local/bin/
+WECHALLUSER="Zan"
+WECHALLTOKEN="64AEC-7E159-EC8BC-4F78E-49E88-E29C6"
+

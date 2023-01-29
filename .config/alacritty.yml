@@ -47,7 +47,7 @@ window:
   # by DPI and the specified value is always added at both opposing sides.
   padding:
     x: 18
-    y: 18
+    y: 13
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -156,7 +156,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 8.0
+  size: 12.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -405,8 +405,67 @@ schemes:
       cyan:    '#78DCE8'
       white:   '#FCFCFA'
 
-#colori salvati per ora: default, xterm, tomorrow, monokai
-colors: *tomorrow
+
+#--------------------------------------------------- APUS (kde global theme)
+  Monokai: &apus
+  # Default colors
+    primary:
+      background: '#2D3742'
+      foreground: '#ACE3FF'
+
+  # Normal colors
+    normal:
+      black:   '#2D3742'
+      red:     '#FF6188'
+      green:   '#A9DC76'
+      yellow:  '#FFD866'
+      blue:    '#FC9867'
+      magenta: '#AB9DF2'
+      cyan:    '#78DCE8'
+      white:   '#FCFCFA'
+
+  # Bright colors
+    bright:
+      black:   '#2D3742'
+      red:     '#FF6188'
+      green:   '#A9DC76'
+      yellow:  '#FFD866'
+      blue:    '#FC9867'
+      magenta: '#AB9DF2'
+      cyan:    '#78DCE8'
+      white:   '#FCFCFA'
+
+#--------------------------------------------------- NORDOC (kde global theme)
+  Monokai: &nordic
+  # Default colors
+    primary:
+      background: '#2E3440' # era 353C4A
+      foreground: '#ACE3FF'
+
+  # Normal colors
+    normal:
+      black:   '#2E3440' # era 353C4A
+      red:     '#BF616A'
+      green:   '#A3BE8C'
+      yellow:  '#EBCB8B'
+      blue:    '#81A1C1'
+      magenta: '#B48EAD'
+      cyan:    '#88C0D0'
+      white:   '#E5E9F0'
+
+  # Normal colors
+    bright:
+      black:   '#353C4A'
+      red:     '#BF616A'
+      green:   '#A3BE8C'
+      yellow:  '#EBCB8B'
+      blue:    '#81A1C1'
+      magenta: '#B48EAD'
+      cyan:    '#88C0D0'
+      white:   '#E5E9F0'
+
+#colori salvati per ora: default, xterm, tomorrow, monokai, apus, nordic
+colors: *nordic
  
 # Indexed Colors	
   #
@@ -526,8 +585,8 @@ colors: *tomorrow
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
+shell:
+   program: /bin/fish
 #  args:
 #    - --login
 
