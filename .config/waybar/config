@@ -5,25 +5,27 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-right": ["keyboard-state","backlight","pulseaudio", "network","battery","sway/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
-    "modules-center": ["sway/window","clock"],
-    "modules-left": ["custom/spotify", "cpu", "memory", "temperature"],
+    "modules-right": ["keyboard-state","backlight","pulseaudio", "network","battery"],
+    "modules-center": ["clock"],
+    "modules-left": ["custom/spotify", "cpu", "memory", "temperature", "wlr/workspaces"],
     // Modules configuration
-    // "sway/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
+    "wlr/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon}",
+        "on-click": "activate",
+        //"format": "{name}: {icon}",
+        "format-icons": {
+            //"1": "",
+            //"2": "",
+            //"3": "",
+            //"4": "",
+            //"5": "",
+            //"urgent": "",
+            //"focused": "",
+            "default": ""
+        }
+    },
     "custom/spotify": {
         "exec": "/usr/bin/python3 /home/zan/.config/waybar/spotifyScript.py",
         "format": "{icon} {} ",
