@@ -898,7 +898,7 @@ shell:
 # in the order they were defined in.
 key_bindings:
 
-  - {key: Q, mods: Control, action: Quit}
+  # - {key: Q, mods: Control, action: Quit}
   - {key: N, mods: COntrol, action: SpawnNewInstance}
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
