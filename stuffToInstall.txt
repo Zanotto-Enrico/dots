@@ -1,0 +1,14 @@
+nemo
+alacritty
+fish
+rofi
+waybar-hyprland-git
+pulseaudio pulseaudio-bluetooth
+bluez bluez-utils
+slurp
+grim
+numlockx
+firefox
+gobject-introspection
+hyprland  (AUR)
+
