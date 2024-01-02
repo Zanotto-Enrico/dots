@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family:Cascadia Mono, "Font Awesome 6 Free",FontAwesome,Roboto,Helvetica, Arial, sans-serif;
+    font-family: Caskaydia Cove Nerd Font, "Font Awesome 6 Free",FontAwesome,Roboto,Helvetica, Arial, sans-serif;
     font-size: 15px;
     border-radius: 5px;
    
@@ -281,11 +281,11 @@ label:focus {
 }
 
 #keyboard-state > label {
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 #keyboard-state > label.locked {
-    /*background: rgba(0, 0, 0, 0.2);*/
+    /*background: rgba(0, 0, 0, 0.2);*/     
 }
 
 #scratchpad {

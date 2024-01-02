@@ -7,9 +7,9 @@
     // Choose the order of the modules
     "modules-right": ["keyboard-state","backlight","pulseaudio", "network","battery"],
     "modules-center": ["clock"],
-    "modules-left": ["custom/spotify", "cpu", "memory", "temperature", "wlr/workspaces"],
+    "modules-left": ["custom/spotify", "cpu", "memory", "temperature", "hyprland/workspaces"],
     // Modules configuration
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "format": "{icon}",
