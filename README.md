@@ -58,4 +58,4 @@ bluez bluez-utils
 slurp
 grim
 numlockx
-
+nord-theme
