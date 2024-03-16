@@ -165,6 +165,12 @@ require('lazy').setup({
     'nvim-tree/nvim-tree.lua'
   },
   {
+    'MunifTanjim/nui.nvim'
+  },
+  {
+    'MaximilianLloyd/ascii.nvim'
+  },
+  {
     -- Theme inspired by Atom
     'navarasu/onedark.nvim',
     priority = 1000,
@@ -613,31 +619,27 @@ cmp.setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+table.insert(require("ascii").art.text.neovim.sharp,[[ ]])
+table.insert(require("ascii").art.text.neovim.sharp,[[ ]])
+table.insert(require("ascii").art.text.neovim.sharp,[[ ]])
+table.insert(require("ascii").art.text.neovim.sharp,[[ ]])
 
-
--- to remove pycodestyle, too much verbose 
-require('lspconfig').pylsp.setup {
-  on_attach = on_attach,
-  settings = {
-    -- configure plugins in pylsp
-    pylsp = {
-      plugins = {
-        pycodestyle = {enabled = false},
-      },
-    },
-  },
-}
+table.insert(require("ascii").art.animals.cats.pouncy ,1,[[ ]])
+table.insert(require("ascii").art.animals.cats.pouncy, 1,[[ ]])
+table.insert(require("ascii").art.animals.cats.pouncy ,1,[[ ]])
 
 require('dashboard').setup({
   theme = 'doom',
-      preview = {
-        command = 'lolcat',
-        file_path = '~/.config/nvim/title2.cat',
-        file_height = 6,
-        file_width = 54,
-      },
+  preview = {
+    
+    --command = 'lolcat',
+    --file_path = '~/.config/nvim/title2.cat',
+    file_height = 6,
+    file_width = 54,
+  },
   config = {
-    header = {}, --your header
+
+    header = require("ascii").art.text.neovim.sharp,
     center = {
       {
         icon = '🗁 ',
@@ -674,7 +676,7 @@ require('dashboard').setup({
       },
 
     },
-    footer = {}  --your footer
+    footer = require("ascii").art.animals.cats.pouncy  --your footer
   }
 })
 
@@ -748,6 +750,7 @@ require("nvim-tree").setup({
     },
   })
 
+
 require("ibl").setup { 
   scope = {
     show_end = false,
@@ -762,6 +765,6 @@ require("ibl").setup {
   },
 
   exclude = {
-    filetypes = {"dashboard"}
+    filetypes = {"dashboard", "text"}
   }
 }
