@@ -117,11 +117,14 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Cascadia Mono
+    family: Font Awesome 6 Free
+    family: Symbols Nerd Font
+    family: Cascadia Code
+    family: CaskaydiaCoveNerdFontMono
 
     # The `style` can be specified to pick a specific face.
     style: Regular
-
+   
   # Bold font face
   #bold:
     # Font family
@@ -161,9 +164,9 @@ font:
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
   # spacing.
-  #offset:
-  #  x: 0
-  #  y: 0
+  offset:
+    x: 0
+    y: 0
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the
@@ -898,7 +901,7 @@ shell:
 # in the order they were defined in.
 key_bindings:
 
-  # - {key: Q, mods: Control, action: Quit}
+  #- {key: Q, mods: Control, action: Quit}
   - {key: N, mods: COntrol, action: SpawnNewInstance}
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
