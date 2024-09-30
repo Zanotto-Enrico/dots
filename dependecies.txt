@@ -10,5 +10,9 @@ grim
 numlockx
 firefox
 gobject-introspection
-hyprland  (AUR)
-
+hyprland
+gnome-bluetooth-3.0
+aylurs-gtk-shell
+sass
+material-symbols-git
+hyprpicker
