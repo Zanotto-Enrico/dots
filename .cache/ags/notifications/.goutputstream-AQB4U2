@@ -1,0 +1,42 @@
+[
+  {
+    "actions": [],
+    "appIcon": "",
+    "appName": "ags",
+    "body": "Keybinds hyprland config file not found. Check your user options.",
+    "id": 0,
+    "summary": "Update path to keybinds",
+    "time": 1727258884,
+    "urgency": "normal"
+  },
+  {
+    "actions": [],
+    "appIcon": "",
+    "appName": "illogical-impulse",
+    "body": "Plug in the charger",
+    "id": 1,
+    "summary": "Low battery",
+    "time": 1727262782,
+    "urgency": "critical"
+  },
+  {
+    "actions": [],
+    "appIcon": "",
+    "appName": "illogical-impulse",
+    "body": "Critical battery level (1% remaining)",
+    "id": 2,
+    "summary": "Suspending system",
+    "time": 1727263570,
+    "urgency": "critical"
+  },
+  {
+    "actions": [],
+    "appIcon": "",
+    "appName": "illogical-impulse",
+    "body": "Critical battery level (0% remaining)",
+    "id": 3,
+    "summary": "Suspending system",
+    "time": 1727263595,
+    "urgency": "critical"
+  }
+]
