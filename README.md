@@ -5,13 +5,17 @@ Hyprland rice
 # Details
 
 ## Screenshot
-![1](https://github.com/Zanotto-Enrico/home/assets/79021500/87bd9ecc-ad07-4178-85e2-780484d46454)
-![20240101_22h49m34s_grim](https://github.com/Zanotto-Enrico/home/assets/79021500/77b05ec3-9910-4c96-bd3f-c400303b3972)
-![2](https://github.com/Zanotto-Enrico/home/assets/79021500/be0977fb-2c5e-4feb-a5e3-6d1bd8672685)
+![2](https://github.com/user-attachments/assets/dc6dd3d0-ee76-40b8-8471-f90a13a04e8f)
+![1](https://github.com/user-attachments/assets/2ca8f3c8-a641-4e0d-9830-49dc05a1a7fd)
+![3](https://github.com/user-attachments/assets/bece1339-abbd-459b-ad21-3d45325e766b)
+![4](https://github.com/user-attachments/assets/21e199a5-c15e-4b15-852c-28a282b0aa84)
+![5](https://github.com/user-attachments/assets/e1dcbc5a-4cce-4266-a570-12cd0a3c6a54)
+
 
 ## Keybindings
 
 - `Super + Q`   Alacritty
+- `Super + W`   Neovim
 - `Super + A`   Rofi
 - `Super + E`   Nemo
 - `Super + S`   Spotify
@@ -19,34 +23,26 @@ Hyprland rice
 - `Hyprland`
   - `Super + J I K L`   Change focus
   - `Super + V`        Tile/Untile window
-  - 
+  - `Super + O`        Toggle split
+  - `Super + P`        PseudoTile
+  - `Super + <n>`      Jump to n-th desktop
+  - `Super + R`        Resize
 
 ## Details
 
-- **GTK Theme**: 
-- **Cursor**: 
-- **Icon**:
-- **Fonts**:
-  - [Inter](https://github.com/rsms/inter), select variable version for crisp render.
-  - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) with [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) fallback.
-  - [tabler-icons](https://github.com/tabler/tabler-icons), font icon.
+- **Compositor**: [Hyprland](https://github.com/hyprwm/Hyprland)
+- **GTK Theme**: [Nordic](https://github.com/EliverLara/Nordic)
+- **Font**: [Cascadia Code]([https://github.com/rsms/inter](https://github.com/microsoft/cascadia-code)),
 - **Terminal**: [Alacritty](https://github.com/alacritty/alacritty) 
 - **Text Editor**: [Neovim](https://github.com/neovim/neovim).
-- **Git Client**: 
 - **Browser**: [Firefox](https://www.mozilla.org/firefox/new/) 
 - **Music Visualizer**: [cava](https://github.com/karlstav/cava).
 - **App Finder**: [rofi](https://github.com/davatorium/rofi).
-- **Panel/Sidebar**: 
-- **System Tray**: 
-- **Notification**: 
-- **Compositor**: 
-- **Neofetch Image**: 
-- **Wallpaper**: 
+- **Panel/Sidebar**: [ags](https://github.com/Aylur/ags)
+- **File Manager**: [nemo](https://github.com/linuxmint/nemo)
 
 
 # Dependencies
-
-Stuff to install to make everything work
 
 nemo
 alacritty
