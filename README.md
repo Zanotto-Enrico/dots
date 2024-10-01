@@ -8,7 +8,6 @@ Hyprland rice
 ![2](https://github.com/user-attachments/assets/dc6dd3d0-ee76-40b8-8471-f90a13a04e8f)
 ![1](https://github.com/user-attachments/assets/2ca8f3c8-a641-4e0d-9830-49dc05a1a7fd)
 ![3](https://github.com/user-attachments/assets/bece1339-abbd-459b-ad21-3d45325e766b)
-![4](https://github.com/user-attachments/assets/21e199a5-c15e-4b15-852c-28a282b0aa84)
 ![5](https://github.com/user-attachments/assets/e1dcbc5a-4cce-4266-a570-12cd0a3c6a54)
 
 
