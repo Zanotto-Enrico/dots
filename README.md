@@ -43,14 +43,4 @@ Hyprland rice
 
 # Dependencies
 
-nemo
-alacritty
-fish
-rofi
-waybar-hyprland-git
-pulseaudio pulseaudio-bluetooth
-bluez bluez-utils
-slurp
-grim
-numlockx
-nord-theme
+`fish` `alacritty` `aylurs-gtk-shell` `firefox` `ddcutil` `sass` `libnotify` `ddcutil` `neovim` `gtk3` `gobject-introspection` `btop` `unimatrix` `libdbusmenu-gtk3` `gnome-bluetooth-3.0` `gtksourceview3` `brightnessctl` `material-symbols-git` `nordic-theme` `blueberry` `bluez` `bluez-utils` `nemo` `hyprpicker` `rofi` `pulseaudio` `pulseaudio-bluetooth ` `slurp` `grim` `numlockx`
